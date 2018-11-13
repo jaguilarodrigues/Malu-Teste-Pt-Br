@@ -1,0 +1,121 @@
+%YAML 1.1
+---
+actions:
+- utter_saudacao
+- utter_ambulatorio
+- utter_alimentacao
+- utter_esporte
+- utter_jiujitsu
+- utter_musculacao
+- utter_judo
+- utter_muaythai
+- utter_muaythaifem
+- utter_futsal
+- utter_volei
+- utter_handebol
+- utter_mapa
+- utter_despedida
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- saudacao:
+    use_entities: true
+- ambulatorio:
+    use_entities: true
+- alimentacao:
+    use_entities: true
+- esporte:
+    use_entities: true
+- jiujitsu:
+    use_entities: true
+- musculacao:
+    use_entities: true
+- judo:
+    use_entities: true
+- muaythai:
+    use_entities: true
+- muaythaifem:
+    use_entities: true
+- futsal:
+    use_entities: true
+- volei:
+    use_entities: true
+- handebol:
+    use_entities: true
+- mapa:
+    use_entities: true
+- despedida:
+    use_entities: true
+slots: {}
+templates:
+  utter_alimentacao:
+  - image: https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg
+    text: "Localizado na sede do Campus o refeitório busca oferecer alimentação saudável,\
+      \ equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista.\
+      \ Realiza projetos e ações educativas visando, entre outras questões, o melhor\
+      \ aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para\
+      \ estudantes e visitantes pode ser adquirido na Cooperativa- Escola.\nContato:\
+      \ (35) 3571-5066\nHorário de Funcionamento do Refeitório:"
+  utter_ambulatorio:
+  - image: https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg
+    text: "Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde,\
+      \ com atendimento médico, realizando ações de pronto atendimento como: consultas\
+      \ e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui\
+      \ ambulância própria para facilitar a locomoção em casos de urgência.\n Contato:\
+      \ (35) 3571-5064\n Horário de Atendimento Ambulatorial:"
+  utter_despedida:
+  - text: 'Espero ter ajudado!! Para mais informações e notícias sobre o IFSULDEMINAS
+      - Campus Muzambinho consulte o nosso site: https://www.muz.ifsuldeminas.edu.br/'
+  utter_esporte:
+  - buttons:
+    - payload: jiujitsu
+      title: Jiu Jitsu
+    - payload: musculacao
+      title: Musculação
+    - payload: judo
+      title: Judô
+    - payload: muaythai
+      title: Muay Thai
+    - payload: muaythaifem
+      title: Muay Thai (Feminino)
+    - payload: futsal
+      title: Futsal
+    - payload: volei
+      title: Voleibol
+    - payload: handebol
+      title: Handebol
+    text: "O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades\
+      \ de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual,\
+      \ social e cultural, de modo a incentivar a criatividade.\nContato: (35) 3571-5072\n\
+      Horário de Treino das Seguintes Atividades:"
+  utter_futsal:
+  - image: https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg
+    text: 'Horarios de Treino Futsal:'
+  utter_handebol:
+  - image: https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg
+    text: 'Horarios de Treino Handebol:'
+  utter_jiujitsu:
+  - image: https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg
+    text: 'Horarios de Treino Jiu Jitsu:'
+  utter_judo:
+  - image: https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg
+    text: 'Horarios de Treino Judo:'
+  utter_mapa:
+  - image: https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg
+    text: 'Mapa ilustrado do Campus Muzambinho:'
+  utter_muaythai:
+  - image: https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg
+    text: 'Horarios de Muay Thai:'
+  utter_muaythaifem:
+  - image: https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg
+    text: 'Horarios de Muay Thai (Feminino):'
+  utter_musculacao:
+  - image: https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg
+    text: 'Horarios de Treino Musculação:'
+  utter_saudacao:
+  - text: Olá, meu nome é Malu! Minha função é auxiliar você a compreender a estrutura
+      e as normas que regem a Instituição. Como posso te ajudar?
+  utter_volei:
+  - image: https://cdn77.eatliver.com/wp-content/uploads/2017/10/trump-frog.jpg
+    text: 'Horarios de Treino Voleibol:'

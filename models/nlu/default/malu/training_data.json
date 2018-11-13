@@ -1,0 +1,408 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "saudacao",
+        "text": "Ola"
+      },
+      {
+        "intent": "despedida",
+        "text": "Tchau"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Hey"
+      },
+      {
+        "intent": "saudacao",
+        "text": "oi"
+      },
+      {
+        "intent": "despedida",
+        "text": "fui"
+      },
+      {
+        "intent": "despedida",
+        "text": "xau"
+      },
+      {
+        "intent": "despedida",
+        "text": "teh"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Olá, eu preciso de informacoes"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Oi, preciso de ajuda"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Oi"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Oi, bom dia, como vai?"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Oi, bom dia"
+      },
+      {
+        "text": "Oi, boa tarde"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Oi, boa noite"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Oi, tudo bem?"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Oie"
+      },
+      {
+        "intent": "saudacao",
+        "text": "coé parsa"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Olá"
+      },
+      {
+        "intent": "saudacao",
+        "text": "Como estás? "
+      },
+      {
+        "intent": "saudacao",
+        "text": "eaee"
+      },
+      {
+        "intent": "saudacao",
+        "text": "ow"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Não estou me sentindo bem"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Estou com dor"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Preciso de ajuda médica"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Eu não tô bem"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Qual o horário de atendimento do ambulatorio no meio da semana e no fim de semana?"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Vocês podem me prescrever remédio? "
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "O médico trabalha o dia todo ou só o técnico? "
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "A ambulância pode me levar na cidade? "
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Quero saber onde encontro um enfermeiro"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Você pode me dizer onde fica o ambulatorio e o que eles podem fazer por mim?"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Estou passando mal"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Estou com dor de cabeça, onde vou? "
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Preciso de um remédio pra dor de cabeça "
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "onde fica a enfermaria?"
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Eu não estou bem."
+      },
+      {
+        "intent": "ambulatorio",
+        "text": "Estou com muita dor, preciso de um médico"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Onde posso comer?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Aqui vende comida?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Que horas é o almoço?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Que horas é a janta?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Que horas é o cafe da manha?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Que horas é o cafe da noite?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Tô com fome o q q tem?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Onde vocês comem? Tenho que pagar? "
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde é o restaurante universitário? "
+      },
+      {
+        "intent": "alimentacao",
+        "text": "O refeitório oferece todas as refeições? "
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Onde posso comer algo?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Onde posso almoçar?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "A comida do refeitório é boa?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "onde eu compro os tickets?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "O que tem de almoço hoje?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Vamos procurar algum lugar para comer? "
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Onde posso janta?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "O que tem de janta hoje?"
+      },
+      {
+        "intent": "alimentacao",
+        "text": "Onde tem cafe da manha?"
+      },
+      {
+        "intent": "esporte",
+        "text": "Quais os esportes oferecidos aqui"
+      },
+      {
+        "intent": "esporte",
+        "text": "Posso praticar algum esporte"
+      },
+      {
+        "intent": "esporte",
+        "text": "Tem esporte aqui"
+      },
+      {
+        "intent": "esporte",
+        "text": "Aqui tem algum lugar onde praticam esportes?"
+      },
+      {
+        "intent": "esporte",
+        "text": "Quais esportes o campus oferece?"
+      },
+      {
+        "intent": "esporte",
+        "text": "Posso fazer quantas atividades? "
+      },
+      {
+        "intent": "esporte",
+        "text": "Vocês treinam vôlei aqui?"
+      },
+      {
+        "intent": "esporte",
+        "text": "No IF tem times esportivos?"
+      },
+      {
+        "intent": "esporte",
+        "text": "O instituto possui alguma atividade extra curricular?"
+      },
+      {
+        "intent": "esporte",
+        "text": "Aqui no instituto tem handebol ?"
+      },
+      {
+        "intent": "esporte",
+        "text": "tem uma academia no campus?"
+      },
+      {
+        "intent": "esporte",
+        "text": "Que tipo de esporte eu poderia praticar aqui?"
+      },
+      {
+        "intent": "esporte",
+        "text": "Preciso fazer aulas de danças, onde encontro o lugar mais próximos com atividades?"
+      },
+      {
+        "intent": "esporte",
+        "text": "O instituto oferece aulas de esportes?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde é o restaurante universitário? "
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica o prédio H"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica o prédio da Administração"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica a biblioteca"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde q fica"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde vou pra saber mais sobre o lugar? "
+      },
+      {
+        "intent": "mapa",
+        "text": "Como chego até a  "
+      },
+      {
+        "intent": "mapa",
+        "text": "O campus tem algum mapa?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica a biblioteca?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Estou perdida pode me ajudar"
+      },
+      {
+        "intent": "mapa",
+        "text": "existe um mapa daqui do campus?"
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica a secretária? "
+      },
+      {
+        "intent": "mapa",
+        "text": "Onde fica o Predio tecnológico "
+      },
+      {
+        "intent": "mapa",
+        "text": "como chego"
+      },
+      {
+        "intent": "despedida",
+        "text": "Obrigada pela ajuda"
+      },
+      {
+        "intent": "despedida",
+        "text": "Até logo"
+      },
+      {
+        "intent": "despedida",
+        "text": "Obrigada, até mais"
+      },
+      {
+        "intent": "despedida",
+        "text": "Tchau, até mais!"
+      },
+      {
+        "intent": "despedida",
+        "text": "Bye "
+      },
+      {
+        "intent": "despedida",
+        "text": "Até mais, muito obrigada! "
+      },
+      {
+        "intent": "despedida",
+        "text": "Tchau, obrigadx!"
+      },
+      {
+        "intent": "despedida",
+        "text": "Até mais"
+      },
+      {
+        "intent": "despedida",
+        "text": "A gente se encontra por aí"
+      },
+      {
+        "intent": "despedida",
+        "text": "falous parsa 🤙"
+      },
+      {
+        "intent": "despedida",
+        "text": "falous parsa"
+      },
+      {
+        "intent": "despedida",
+        "text": "Até mais!"
+      },
+      {
+        "intent": "despedida",
+        "text": "Adeus"
+      },
+      {
+        "intent": "despedida",
+        "text": "Até logo"
+      },
+      {
+        "intent": "despedida",
+        "text": "flw"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "language": "pt_core_news_sm",
+  "pipeline": "spacy_sklearn",
+  "path":"./models/nlu",
+  "data":"./data/data.json"
+}
