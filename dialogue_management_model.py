@@ -12,6 +12,7 @@ from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.train import online
 from rasa_core.utils import EndpointConfig
+from rasa_core.run import serve_application
 
 logger = logging.getLogger(__name__)
 
@@ -19,7 +20,10 @@ def train_dialogue(domain_file = 'malu_domain.yml',
 					model_path = './models/dialogue',
 					training_data_file = './data/stories.md'):
 
-	agent = Agent(domain_file, policies = [MemoizationPolicy(max_history=2), KerasPolicy()])
+	fallback = FallbackPolicy(fallback_action_name="action_default_fallback",
+                              core_threshold=0.01,
+                              nlu_threshold=0.01)
+	agent = Agent(domain_file, policies = [MemoizationPolicy(max_history=2), KerasPolicy(), fallback])
 	data = agent.load_data(training_data_file)
 	agent.train(
 				data,
@@ -34,7 +38,7 @@ def run_malu_bot(serve_forever=True):
 	interpreter = RasaNLUInterpreter('./models/nlu/default/malu') #carrega o modelo de nlu
 	action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 	agent = Agent.load('./models/dialogue', interpreter=interpreter, action_endpoint=action_endpoint) #carregar um agente
-	rasa_core.run.serve_application(agent ,channel='cmdline')
+	serve_application(agent ,channel='cmdline')
 
 	return agent
 

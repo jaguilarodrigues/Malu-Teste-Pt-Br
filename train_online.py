@@ -20,12 +20,12 @@ def run_weather_online(interpreter,
                           training_data_file='data/stories.md'):
     action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
     fallback = FallbackPolicy(fallback_action_name="action_default_fallback",
-                              core_threshold=0.3,
-                              nlu_threshold=0.3)
+                              core_threshold=0.01,
+                              nlu_threshold=0.01)
     agent = Agent(domain_file,
-                  policies=[MemoizationPolicy(max_history=2), KerasPolicy()],
+                  policies=[MemoizationPolicy(max_history=2), KerasPolicy(), fallback],
                   interpreter=interpreter,
-				  action_endpoint=action_endpoint, fallback)
+				  action_endpoint=action_endpoint)
 
     data = agent.load_data(training_data_file)
     agent.train(data,

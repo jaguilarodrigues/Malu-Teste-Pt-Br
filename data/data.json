@@ -500,6 +500,270 @@
         "text": "flw",
         "intent": "despedida",
         "entities": []
+      },
+      {
+        "text": "quero treinar muay thai",
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "muay thai",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "quero treinar jiu jitsu",
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "jiu jitsu",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "quero treinar voleibol",
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "quero treinar volei",
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "volei",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "quero treinar futsal",
+        "intent": " futsal",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "quero treinar fut",
+        "intent": " futsal",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "fut",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "quero treinar handebol",
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "quero treinar musculacao",
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "musculacao",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "quero treinar muscu",
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "muscu",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "quero treinar judo",
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "judo",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "quero treinar muay thai",
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "muay thai",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "quero treinar jiu",
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "jiu",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "que horas tem treino de jiu jitsu",
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "jiu jitsu",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "que horas tem treino de jiu",
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "jiu",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "que horas tem treino de muay thai",
+        "intent": "artmarc",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "muay thai",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "que horas tem treino de voleibol",
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "voleibol",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "que horas tem treino de volei",
+        "intent": "voleibol",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "volei",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "que horas tem treino de handebol",
+        "intent": "handebol",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "handebol",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "que horas tem treino de futsal",
+        "intent": " futsal",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "futsal",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "que horas tem treino de fut",
+        "intent": " futsal",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "fut",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "que horas funciona a academia de musculaçao",
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 33,
+            "end": 43,
+            "value": "musculaçao",
+            "entity": "modalidade"
+          }
+        ]
+      },
+      {
+        "text": "que horas funciona a academia ",
+        "intent": "musculacao",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "academia",
+            "entity": "modalidade"
+          }
+        ]
       }
     ]
   }

@@ -2,15 +2,13 @@
   "states": [
     "intent_alimentacao",
     "intent_ambulatorio",
+    "intent_artmarc",
+    "intent_default",
     "intent_despedida",
     "intent_esporte",
     "intent_futsal",
     "intent_handebol",
-    "intent_jiujitsu",
-    "intent_judo",
     "intent_mapa",
-    "intent_muaythai",
-    "intent_muaythaifem",
     "intent_musculacao",
     "intent_saudacao",
     "intent_volei",
@@ -21,15 +19,13 @@
     "prev_utter_ambulatorio",
     "prev_utter_alimentacao",
     "prev_utter_esporte",
-    "prev_utter_jiujitsu",
+    "prev_utter_artmarc",
     "prev_utter_musculacao",
-    "prev_utter_judo",
-    "prev_utter_muaythai",
-    "prev_utter_muaythaifem",
     "prev_utter_futsal",
     "prev_utter_volei",
     "prev_utter_handebol",
     "prev_utter_mapa",
-    "prev_utter_despedida"
+    "prev_utter_despedida",
+    "prev_utter_default"
   ]
 }
