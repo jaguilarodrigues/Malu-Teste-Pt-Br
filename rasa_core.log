@@ -1,0 +1,147 @@
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-pt_core_news_sm'.
+C:\Users\jakeh\Anaconda2\envs\py36\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/nlu/default/malu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\jakeh\Anaconda2\envs\py36\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+static                                             HEAD, GET, OPTIONS             /static/[filename]
+fb_webhook.health                                  HEAD, GET, OPTIONS             /webhooks/facebook/
+fb_webhook.webhook                                 POST, OPTIONS                  /webhooks/facebook/webhook
+Rasa Core server is up and running on http://localhost:5000
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-pt_core_news_sm'.
+C:\Users\jakeh\Anaconda2\envs\py36\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/nlu/default/malu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\jakeh\Anaconda2\envs\py36\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+fb_webhook.health                                  HEAD, OPTIONS, GET             /webhooks/facebook/
+fb_webhook.webhook                                 OPTIONS, POST                  /webhooks/facebook/webhook
+Rasa Core server is up and running on http://localhost:5000
+Creating a new tracker for id '2175450945822549'.
+C:\Users\jakeh\Anaconda2\envs\py36\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'oi' with intent '{'name': 'saudacao', 'confidence': 0.5895814490321258}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_saudacao': 1.0}]
+There is a memorised next action '3'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_saudacao' with prob 1.00.
+Sending message: Olá, meu nome é Malu! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?
+Action 'utter_saudacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Olá, meu nome é Malu! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_saudacao': 1.0}, {'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2175450945822549'
+C:\Users\jakeh\Anaconda2\envs\py36\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'onde fica o refeitório?' with intent '{'name': 'mapa', 'confidence': 0.4107193869401677}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+
+Current tracker state [{'prev_utter_saudacao': 1.0, 'intent_saudacao': 1.0}, {'intent_mapa': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_alimentacao' with prob 0.22.
+Sending message: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+Contato: (35) 3571-5066
+Horário de Funcionamento do Refeitório:
+Action 'utter_alimentacao' ended with events '[]'
+Bot utterance 'BotUttered(text: Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.
+Contato: (35) 3571-5066
+Horário de Funcionamento do Refeitório:, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": "imagens/hora_refeitorio.jpg"
+})'
+Current tracker state [{'intent_mapa': 1.0, 'prev_action_listen': 1.0}, {'intent_mapa': 1.0, 'prev_utter_alimentacao': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id '2175450945822549'
+C:\Users\jakeh\Anaconda2\envs\py36\lib\site-packages\sklearn\preprocessing\label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Received user message 'há esportes?' with intent '{'name': 'esporte', 'confidence': 0.6901142024486733}' and entities '[]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+
+Current tracker state [{'intent_mapa': 1.0, 'prev_utter_alimentacao': 1.0}, {'intent_esporte': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_esporte' with prob 1.00.
+Facebook API currently allows only up to 3 buttons. If you add more, all will be ignored.
+Sending message: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+Contato: (35) 3571-5072
+Horário de Treino das Seguintes Atividades:
+Action 'utter_esporte' ended with events '[]'
+Bot utterance 'BotUttered(text: O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.
+Contato: (35) 3571-5072
+Horário de Treino das Seguintes Atividades:, data: {
+  "elements": null,
+  "buttons": [
+    {
+      "payload": "artmarc",
+      "title": "Artes Marciais"
+    },
+    {
+      "payload": "musculacao",
+      "title": "Muscula\u00e7\u00e3o"
+    },
+    {
+      "payload": "futsal",
+      "title": "Futsal"
+    },
+    {
+      "payload": "volei",
+      "title": "Voleibol"
+    },
+    {
+      "payload": "handebol",
+      "title": "Handebol"
+    }
+  ],
+  "attachment": null
+})'
+Current tracker state [{'intent_esporte': 1.0, 'prev_action_listen': 1.0}, {'intent_esporte': 1.0, 'prev_utter_esporte': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'

@@ -25,26 +25,15 @@ templates:
     - text: "Olá, meu nome é Malu! Minha função é auxiliar você a compreender a estrutura e as normas que regem o Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais - Campus Muzambinho. Como posso te ajudar?"
 
   utter_ambulatorio:
-    - text: "Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.\n Contato: (35) 3571-5064\n Horário de Atendimento Ambulatorial:"
+    - text: "Aqui no Campus contamos com o ambulatório. Ele oferece assistência à saúde, com atendimento médico, realizando ações de pronto atendimento como: consultas e orientação médicas, emergências e encaminhamento hospitalar. O Campus possui ambulância própria para facilitar a locomoção em casos de urgência.\n\nContato: (35) 3571-5064\n\nHorário de Atendimento Ambulatorial:"
       image: "imagens/hora_ambulatorio.jpg"
 
   utter_alimentacao:
-    - text: "Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.\nContato: (35) 3571-5066\nHorário de Funcionamento do Refeitório:"
+    - text: "Localizado na sede do Campus o refeitório busca oferecer alimentação saudável, equilibrada, com cardápios desenvolvidos e acompanhados por nutricionista. Realiza projetos e ações educativas visando, entre outras questões, o melhor aproveitamento dos alimentos e a redução do desperdício diário. O Ticket para estudantes e visitantes pode ser adquirido na Cooperativa- Escola.\n\nContato: (35) 3571-5066\n\nHorário de Funcionamento do Refeitório:"
       image: "imagens/hora_refeitorio.jpg"
 
   utter_esporte:
-    - text: "O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.\nContato: (35) 3571-5072\nHorário de Treino das Seguintes Atividades:"
-      buttons:
-        - title: "Artes Marciais"
-          payload: "artmarc"
-        - title: "Musculação"
-          payload: "musculacao"
-        - title: "Futsal"
-          payload: "futsal"
-        - title: "Voleibol"
-          payload: "volei"
-        - title: "Handebol"
-          payload: "handebol"
+    - text: "O IFSULDEMINAS - Campus Muzambinho oferece aos estudantes diversas atividades de esportes, com o objetivo de contribuir para o desenvolvimento físico, intelectual, social e cultural, de modo a incentivar a criatividade.\n\n-Artes Marciais\n-Musculação\n-Futsal\n-Voleibol\n-Handebol\n\nContato: (35) 3571-5072"
   utter_artmarc:
     - text: "Horarios de Treino das Artes Marciais:"
       image: "imagens/hora_artmarc.jpg"
